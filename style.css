@@ -1,7 +1,7 @@
 /* Mengatur tampilan body */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f7f9fc;
+    background-color: #fce4ec; /* Warna latar belakang merah muda */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 
 /* Container untuk form */
 .form-container, .result-container {
-    background-color: white;
+    background-color: #ffffff; /* Warna putih untuk container */
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@ body {
 
 /* Styling untuk judul */
 h2, h3 {
-    color: #333;
+    color: #000000; /* Warna hitam */
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -42,7 +42,7 @@ h2, h3 {
 
 .input-group label {
     font-weight: 600;
-    color: #666;
+    color: #000000; /* Warna hitam */
     display: block;
     margin-bottom: 8px;
 }
@@ -51,17 +51,17 @@ h2, h3 {
 input[type="text"], input[type="number"] {
     width: 100%;
     padding: 12px 15px;
-    border: 2px solid #ddd;
+    border: 2px solid #ffcdd2; /* Warna merah muda */
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 16px;
-    color: #333;
+    color: #000000; /* Warna hitam */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input[type="text"]:focus, input[type="number"]:focus {
-    border-color: #c9366c;
-    box-shadow: 0 0 5px rgba(115, 38, 61, 0.5);
+    border-color: #000000; /* Warna hitam */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Warna hitam */
     outline: none;
 }
 
@@ -69,7 +69,7 @@ input[type="text"]:focus, input[type="number"]:focus {
 button {
     width: 100%;
     padding: 15px;
-    background-color: #c9366c;
+    background-color: #d32f2f; /* Warna merah gelap */
     color: white;
     border: none;
     border-radius: 8px;
@@ -80,25 +80,25 @@ button {
 }
 
 button:hover {
-    background-color: #c9366c;
+    background-color: #c62828; /* Warna merah lebih terang */
 }
 
 /* Styling untuk hasil yang ditampilkan */
 .result p {
     font-size: 18px;
-    color: #555;
+    color: #000000; /* Warna hitam */
     line-height: 1.6;
 }
 
 .result p strong {
-    color: #333;
+    color: #000000; /* Warna hitam */
 }
 
 /* Tombol kembali */
 .back-button {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #c9366c;
+    background-color: #d32f2f; /* Warna merah gelap */
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -109,9 +109,8 @@ button:hover {
 }
 
 .back-button:hover {
-    background-color: #c9366c;
+    background-color: #c62828; /* Warna merah lebih terang */
 }
-
 
 .logo {
     max-width: 100%;
